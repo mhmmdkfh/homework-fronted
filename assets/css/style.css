@@ -2999,13 +2999,13 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
 
 .itemContent {
   line-height: 2.25rem;
-  font-size: 18px;
+  font-size: 15px;
   margin-right: 20px;
   margin-top: 20px;
 }
 
 .itemContentImg{
-  font-size: 18px;
+  font-size: 15px;
   height: 2.25rem;
   margin-right: 5px;
   margin-top: 20px;
@@ -3014,4 +3014,50 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-men
 .cardClass {
   border-radius: 2px;
   
+}
+
+.headerClass {
+  color: white;
+  margin-bottom: 0px;
+}
+
+.card .card-body {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.iconImg {
+  font-size: 20px;
+  float: right;
+  margin-right: 10px;
+}
+
+.titleKelas {
+  color: white;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+.cardContent {
+  margin-top: 15px;
+  margin-left: 25%;
+  width: 70%;
+  height: 65px;
+}
+
+.foto {
+  margin-top: 11px;
+  height: 45px;
+  width: 45px;
+}
+
+.iconContent {
+  margin-top: 11px;
+  font-size: 35px;
+}
+
+.pesan {
+  margin-top: 22px;
 }

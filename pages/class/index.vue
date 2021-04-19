@@ -10,7 +10,7 @@
         </span>
         <div class="row">
           <div class="col-md-4" v-for="(item,i) in listClass" :key="i">
-            <class-item-2 :title="item.title" :id="item.id" :homeworks="item.homeworks">
+            <class-item-2 :img="item.img" :title="item.title" :title2="item.title2" :nameClass="item.nameClass" :id="item.id" :homeworks="item.homeworks" :icon1="item.icon1" :icon2="item.icon2" >
             </class-item-2>
           </div>
         </div>
@@ -24,29 +24,29 @@ export default {
       listClass: [
         {
           id: "X122",
-          title: "Fullstack 1",
+          img: "https://www.gstatic.com/classroom/themes/SocialStudies.jpg", 
+          title: "Fullstack",
+          title2: "Batch III",
+          nameClass: "Shift Academy",
           homeworks: [
-            { id: 1, title: "Tugas A" },
-            { id: 2, title: "Tugas B" },
+            { id: 1, title: "Homework Frontend" },
+            { id: 2, title: "Sandbox Frontend" },
           ],
+          icon1: "fas fa-id-card-alt",
+          icon2: "far fa-folder",
         },
         {
           id: "1512",
-          title: "Fullstack 2",
-          homeworks: [],
-        },
-        {
-          id: "61712",
-          title: "Fullstack 3",
-          homeworks: [],
-        },
-        {
-          id: "y6127",
-          title: "Fullstack 4",
+          img: "https://gstatic.com/classroom/themes/English.jpg",
+          title: "Fullstack",
+          title2: "Batch IV",
+          nameClass: "Shift Academy",
           homeworks: [
             { id: 3, title: "Tugas A" },
             { id: 4, title: "Tugas B" },
           ],
+          icon1: "fas fa-id-card-alt",
+          icon2: "far fa-folder",
         },
       ],
     };
